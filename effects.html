@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"  href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet"   href="css/bootstrap.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/media.css">
+
+    <title>Effects</title>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <div class="container bg-secondary">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <li class="nav-item">
+          <a class="nav-link active" style="color: #ffffff;" href="index.html">Interactions</a>
+        </li>
+          <a class="nav-link " style="color: #ffffff;" href="effects.html">Effects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #ffffff;" href="utilities.html">Utilities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #ffffff;" href="widgets.html">Widgets</a>
+        </li> 
+      </ul> 
+    </div>
+
+    <!-- toggle_effect -->
+    <div class="container">
+      <div>
+        <h1 class="text-center">Toggle_effect</h1>
+        <div class="toggle">
+          <div id="effects" class="ui-widget-content ui-corner-all">
+            <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+            <p>
+              Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+            </p>
+          </div>
+        </div>
+         
+        <button id="buttons" class="ui-state-default ui-corner-all">Toggle Effect</button>
+      </div>
+    </div>
+
+
+    <!-- hide_effect -->
+    <div class="container mt-5 mb-5">
+      <div>
+        <h1 class="text-center">Hide_Effect</h1>
+              <div class="toggler">
+        <div id="effect" class="ui-widget-content ui-corner-all">
+          <h3 class="ui-widget-header ui-corner-all">Hide</h3>
+          <p>
+            Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+          </p>
+        </div>
+      </div>
+ 
+        <select name="effects" id="effectTypes">
+          <option value="blind">Blind</option>
+          <option value="bounce">Bounce</option>
+          <option value="clip">Clip</option>
+          <option value="drop">Drop</option>
+          <option value="explode">Explode</option>
+          <option value="fade">Fade</option>
+          <option value="fold">Fold</option>
+          <option value="highlight">Highlight</option>
+          <option value="puff">Puff</option>
+          <option value="pulsate">Pulsate</option>
+          <option value="scale">Scale</option>
+          <option value="shake">Shake</option>
+          <option value="size">Size</option>
+          <option value="slide">Slide</option>
+        </select>
+         
+        <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+      </div>
+    </div>
+   
+
+    <!--  JS links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>

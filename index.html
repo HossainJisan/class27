@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"  href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet"   href="css/bootstrap.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/media.css">
+
+    <title>Interactions</title>
+  </head>
+  <body>
+   <!-- Navbar -->
+    <div class="container bg-secondary">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <li class="nav-item">
+          <a class="nav-link active" style="color: #ffffff;" href="index.html">Interactions</a>
+        </li>
+          <a class="nav-link " style="color: #ffffff;" href="effects.html">Effects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #ffffff;" href="utilities.html">Utilities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #ffffff;" href="widgets.html">Widgets</a>
+        </li>
+        
+      </ul> 
+    </div>
+
+
+
+    <!-- draggable -->
+    <div class="container">
+      <h1 class="text-center">Draggable</h1>
+
+      <div id="dragg" class="ui-widget-content">
+        <p>Drag me around</p>
+      </div>
+    </div>
+
+    <!-- droppable -->
+    <div class="container">
+      <h1 class="text-center">Droppable</h1>
+
+      <div id="draggable" class="ui-widget-content">
+        <p>Drag me to my target</p>
+      </div>
+ 
+      <div id="droppable" class="ui-widget-header">
+        <p>Drop here</p>
+      </div>
+    </div>
+
+    <!-- Resizable -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-6">
+          <h1 class="text-center">Resizable</h1>
+      
+            <div id="resizable" class="ui-widget-content">
+               <h3 class="ui-widget-header">Resizable</h3>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Selectable -->
+    <div class="container">
+      <h1 class="text-center mt-5">Selectable</h1>
+      <p id="feedback">
+        <span>You&apos;ve selected:</span> <span id="select-result">none</span>.
+      </p>
+ 
+      <ol id="selectable">
+        <li class="ui-widget-content">Item 1</li>
+        <li class="ui-widget-content">Item 2</li>
+        <li class="ui-widget-content">Item 3</li>
+        <li class="ui-widget-content">Item 4</li>
+      </ol>
+    </div>
+
+    <!-- Sortable -->
+    <div class="container">
+      <h1 class="text-center">Sortable</h1>
+
+        <ul id="sortable">
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+          <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+        </ul>
+    </div>
+
+    <!--  JS links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/popper.min.js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
